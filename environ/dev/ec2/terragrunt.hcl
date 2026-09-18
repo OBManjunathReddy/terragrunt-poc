@@ -3,7 +3,7 @@ terraform {
 }
 
 inputs = {
-  instance_id    = "ami-0f58b397bc5c1f2e8"
+  ami_id         = "ami-0c02fb55956c7d316"
   instance_type  = "t2.micro"
   instance_name  = "dev-ec2"
 }
